@@ -19,18 +19,22 @@ Secondary Color (Orange): #e0b354;
   --animation-yellow: #edc655;
   --animation-yellow-light: #fcffad;
   --animation-orange: #f76414;
-  --animation-gray-dark: #1A232C;
+  --animation-gray-dark: #1a232c;
   --animation-gray-mid: #425970;
   --animation-gray-light: #7e99b4;
   --grid-box-fill: lightgray;
+
   /* Fonts & Text */
   --heading-font-weight: 700;
   --center-align-text: center;
+
   /* Buttons */
   --button-cursor: pointer;
   --button-opacity: 0.8;
+
   /* Padding Values */
   --padding20pixels: 20px;
+
   /* Container Widths */
   --container-max-width: 700px;
 }
@@ -70,7 +74,8 @@ a:visited {
   color: var(--primary-visited);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   cursor: var(--button-cursor);
   opacity: var(--button-opacity);
@@ -80,7 +85,8 @@ a:active {
   color: var(--primary-active);
 }
 
-.button, button {
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -157,7 +163,8 @@ button:focus,
 }
 
 /* About Me Section */
-.about-me, .about-me__table {
+.about-me,
+.about-me__table {
   max-width: var(--container-max-width);
   margin: 0 auto;
   text-align: var(--center-align-text);
@@ -187,15 +194,17 @@ button:focus,
 }
 
 @keyframes ring-color {
-    0% {
-      fill: var(--animation-gray-dark);
-    }
-    50% {
-      fill: var(--animation-gray-mid);
-    }
-    100% {
-      fill: var(--animation-gray-light);
-    }
+  0% {
+    fill: var(--animation-gray-dark);
+  }
+
+  50% {
+    fill: var(--animation-gray-mid);
+  }
+
+  100% {
+    fill: var(--animation-gray-light);
+  }
 }
 
 .sun-ring {
@@ -238,6 +247,7 @@ button:focus,
 }
 
 /* Grid Section on Work Page */
+
 /* Start Grid Fallback */
 .project-grid__item {
   display: inline-block;
@@ -261,14 +271,15 @@ button:focus,
     padding: 10px;
   }
 
-  /*.project-grid__item:last-child {
+  /* .project-grid__item:last-child {
     grid-column: 3 / 3;
     grid-row: 2 / 3;
-  }*/
+  } */
 }
 
 /* Contact Section */
-.contact-me, .form-section {
+.contact-me,
+.form-section {
   max-width: var(--container-max-width);
   margin: 0 auto;
   text-align: var(--center-align-text);
@@ -304,10 +315,10 @@ button:focus,
     grid-gap: 10px;
   }
 
-  /*.project-grid__item:last-child {
+  /* .project-grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
-  }*/
+  } */
   h1 {
     font-size: 22px;
   }
