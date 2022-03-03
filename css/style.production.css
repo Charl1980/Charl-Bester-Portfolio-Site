@@ -189,6 +189,7 @@ button:focus {
   margin: 0 auto;
   text-align: center;
 }
+
 .about-me__table {
   max-width: 700px;
   margin: 0 auto;
@@ -213,6 +214,7 @@ button:focus {
     fill: #f76414;
   }
 }
+
 @keyframes color-change {
   0% {
     fill: #edc655;
@@ -233,27 +235,27 @@ button:focus {
 }
 
 @-webkit-keyframes ring-color {
-    0% {
-      fill: #1A232C;
-    }
-    50% {
-      fill: #425970;
-    }
-    100% {
-      fill: #7e99b4;
-    }
+  0% {
+    fill: #1A232C;
+  }
+  50% {
+    fill: #425970;
+  }
+  100% {
+    fill: #7e99b4;
+  }
 }
 
 @keyframes ring-color {
-    0% {
-      fill: #1A232C;
-    }
-    50% {
-      fill: #425970;
-    }
-    100% {
-      fill: #7e99b4;
-    }
+  0% {
+    fill: #1A232C;
+  }
+  50% {
+    fill: #425970;
+  }
+  100% {
+    fill: #7e99b4;
+  }
 }
 
 .sun-ring {
@@ -327,6 +329,7 @@ button:focus {
 }
 
 /* Grid Section on Work Page */
+
 /* Start Grid Fallback */
 .project-grid__item {
   display: inline-block;
@@ -352,10 +355,10 @@ button:focus {
     padding: 10px;
   }
 
-  /*.project-grid__item:last-child {
+  /* .project-grid__item:last-child {
     grid-column: 3 / 3;
     grid-row: 2 / 3;
-  }*/
+  } */
 }
 
 /* Contact Section */
@@ -364,6 +367,7 @@ button:focus {
   margin: 0 auto;
   text-align: center;
 }
+
 .form-section {
   max-width: 700px;
   margin: 0 auto;
@@ -382,8 +386,8 @@ button:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
   text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -407,10 +411,10 @@ button:focus {
     grid-gap: 10px;
   }
 
-  /*.project-grid__item:last-child {
+  /* .project-grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
-  }*/
+  } */
   h1 {
     font-size: 22px;
   }
