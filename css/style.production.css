@@ -31,31 +31,35 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
+  background-color: black;
 }
 
 h1 {
   font-size: 30px;
   font-weight: 700;
+  color: ivory;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 700;
+  color: ivory;
 }
 
 h3 {
   font-size: 18px;
   font-weight: 700;
+  color: ivory;
 }
 
 a {
-  color: #357b70;
+  color: ivory;
   -webkit-transition: 0.5s opacity;
   transition: 0.5s opacity;
 }
 
 a:visited {
-  color: #05676e;
+  color: ivory;
 }
 
 a:hover {
@@ -71,14 +75,14 @@ a:focus {
 }
 
 a:active {
-  color: #489c79;
+  color: ivory;
 }
 
 .button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #357b70;
+  background-color: #e11624;
   color: #fff !important;
   text-decoration: none;
   padding: 10px;
@@ -93,7 +97,7 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #357b70;
+  background-color: #e11624;
   color: #fff !important;
   text-decoration: none;
   padding: 10px;
@@ -136,7 +140,7 @@ button:focus {
   display: flex;
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  /* border-bottom: 1px solid #2b2b2b; */
 }
 
 .page-header__logo {
@@ -176,6 +180,7 @@ button:focus {
   max-width: 700px;
   margin: 0 auto;
   padding: 20px 0 90px 0;
+  color: ivory;
 }
 
 .profile__portrait {
@@ -190,6 +195,7 @@ button:focus {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
+  color: ivory;
 }
 
 .about-me__table {
@@ -332,6 +338,7 @@ button:focus {
   margin: 0 auto;
   padding: 0 20px 20px 20px;
   text-align: left;
+  color: ivory;
 }
 
 /* Grid Section on Work Page */
@@ -354,7 +361,7 @@ button:focus {
   }
 
   .project-grid__item {
-    background-color: lightgray;
+    background-color: #46433f;
     width: auto;
     min-height: auto;
     margin: 0;
@@ -378,6 +385,7 @@ button:focus {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 20px;
+  color: ivory;
 }
 
 .form-section {
@@ -401,7 +409,12 @@ button:focus {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* border-top: 1px solid #2b2b2b; */
+}
+
+.footer-icon {
+  text-decoration: none;
+  padding: 0 5px;
 }
 
 @media all and (max-width: 500px) {
