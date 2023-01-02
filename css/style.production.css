@@ -129,6 +129,10 @@ button:focus {
   opacity: 0.8;
 }
 
+.case {
+  margin-top: 10px;
+}
+
 .button_secondary {
   background-color: #e0b354;
   color: #2b2b2b;
