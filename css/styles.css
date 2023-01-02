@@ -114,6 +114,10 @@ button:focus,
   opacity: var(--button-opacity);
 }
 
+.case {
+  margin-top: 10px;
+}
+
 .button_secondary {
   background-color: var(--secondary-color);
   color: var(--dark-gray);
